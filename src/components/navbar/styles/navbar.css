@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 24px 4%;
+  column-gap: 40px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+nav h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+nav h1 a {
+  text-decoration: none;
+  color: #0290ff;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  column-gap: 40px;
+  font-size: 0.813rem;
+  flex: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  letter-spacing: 1.9px;
+}
+
+.icon-button {
+  width: 2.813rem;
+  height: 2.813rem;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  color: #0290ff;
+  font-size: 15px;
+}
+
+.active {
+  opacity: 1;
+}

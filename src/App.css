@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4%;
+  background-color: #f5f6fa;
+}
+
+#root {
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
+}
+
+main {
+  padding: 4%;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: white;
+}

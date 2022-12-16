@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form-inputs {
+  display: flex;
+  column-gap: 32px;
+  justify-content: space-between;
+}
+
+input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.15px;
+  color: #121212;
+  flex: 2;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #0290ff;
+}
+
+input::placeholder {
+  opacity: 0.3;
+}
+
+button[type='submit'] {
+  padding: 12px;
+  background-color: #0290ff;
+  border: none;
+  flex: 1;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+}
